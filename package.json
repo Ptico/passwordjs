@@ -1,0 +1,28 @@
+{
+  "name": "password.js",
+  "version": "0.5.0",
+  "description": "Password generation and complexity checking without headache",
+  "main": "password.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ptico/passwordjs.git"
+  },
+  "keywords": [
+    "password"
+  ],
+  "author": "Andrey Savchenko <andrey@aejis.eu> (http://github.com/Ptico)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ptico/passwordjs/issues"
+  },
+  "scripts": {
+    "test": "grunt ci"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "grunt-simple-mocha": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-jshint": "*",
+    "jshint-stylish": "*"
+  }
+}
