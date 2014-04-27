@@ -2,6 +2,9 @@
 
 Password generation and complexity checking without headache
 
+* [![Build Status](https://travis-ci.org/Ptico/passwordjs.svg?branch=master)](https://travis-ci.org/Ptico/passwordjs)
+* [![Code Climate](http://img.shields.io/codeclimate/github/Ptico/passwordjs.svg)](https://codeclimate.com/github/Ptico/passwordjs)
+
 ## Usage
 
 ### Generate password

@@ -29,25 +29,7 @@ module.exports = function(grunt) {
       lib:     ['password.js'],
       tests:   ['test/*.js'],
       options: {
-        reporter: require('jshint-stylish'),
-        forin:    true,
-        noarg:    true,
-        noempty:  true,
-        bitwise:  false,
-        eqeqeq:   false,
-        strict:   true,
-        undef:    true,
-        browser:  true,
-        trailing: true,
-        regexp:   true,
-        expr:     true,
-        indent:   2,
-        globals: {
-          it: true,
-          module: true,
-          require: true,
-          describe: true
-        }
+        reporter: require('jshint-stylish')
       }
     }
   });
